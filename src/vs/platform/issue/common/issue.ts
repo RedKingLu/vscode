@@ -62,4 +62,5 @@ export interface IssueReporterFeatures {
 export interface IIssueService {
 	_serviceBrand: any;
 	openReporter(data: IssueReporterData): TPromise<void>;
+	openTaskManager(): TPromise<void>;
 }
